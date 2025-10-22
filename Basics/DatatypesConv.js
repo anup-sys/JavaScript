@@ -81,3 +81,59 @@ console.log(Boolean(0));         // false
 console.log(Boolean(""));        // false
 console.log(Boolean("Hello"));   // true
 console.log(Boolean(123));       // true
+
+
+let value = 3;
+let negvalue = -3;
+console.log(negvalue);
+
+let str3 = "Anup";
+let str4 = " Singh";
+str5 = str3+str4;
+console.log(str5);
+console.log("1"+1);  //11
+console.log(1+"1"); //11
+console.log("2"+7);
+console.log("56"+"56"+8+9);
+console.log("2"+"5");
+console.log(6*8+4);
+
+console.log(+true);  //1
+//console.log(++true)  //error
+
+console.log(+"")  //0
+
+let gameCounter = 100;
+gameCounter++;  //101
+gameCounter--;  //100
+console.log(gameCounter);
+
+let Counter = 25;
+++Counter;  //26
+--Counter; //25
+console.log(Counter);
+
+console.log(1<2)  //true
+console.log(1>2)  //false
+console.log(1==1) //true
+console.log(1<+2)  //true
+
+console.log(1==2) //false
+
+console.log(2 !=1) //true
+
+console.log(1 != 1)  //false
+
+console.log("1" > 1) //false
+console.log("1" == 1) //true
+
+console.log(null>0)  //false
+console.log(null<0)  //false
+console.log(null>=0)  //true
+
+console.log(undefined == 0);  //false
+console.log(undefined>0)  //false
+console.log(undefined<0)  //false
+
+console.log("2" === 2) //false
+console.log(2===2)  //true
