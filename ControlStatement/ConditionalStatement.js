@@ -185,3 +185,60 @@ if (operator === "+") {
 } else {
     console.log("Invalid operator");
 }
+
+
+let marks1 = 75;
+if(marks>90){
+    console.log("Grade: A");
+}else if(marks>=75){
+    console.log("Grade: B");
+}
+else {
+    console.log("Grade: B");
+}
+
+let day1= 3;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+        case 2:
+            console.log("Tuesday");
+        break;
+        case 3:
+            console.log("Wednesday");
+            break;
+            case 4:
+                console.log("Thursday");
+                break;
+                default:
+                    console.log("Hii" + day1);
+}
+
+//Ternary Operator (?:)
+let isLoggedIn = true;
+let message = isLoggedIn ? "Welcome back!" : "Please log in.";
+
+console.log(message);
+
+
+
+let isLoggedOut = true;
+let message1 = isLoggedOut ? "Meet You Again!" : "Office time is over";
+
+console.log(message1);
+
+
+//Looping Statement
+let college = "RajaRajeswari College Of Engineering";
+
+for (let i = 1; i <= 5; i++) {
+  console.log(college);
+}
+
+
+let college1 = 'Rv College Of Engineering';
+
+for(let i =1; i<5;i++){
+    console.log(college1);
+}
