@@ -365,3 +365,22 @@ let person1 = {
 for(let key in person){
     console.log(key, person[key]);
 }
+
+
+
+//JavaScript return Statement (With Examples)
+
+function add(a, b) {
+    return a + b;   // sends the result back
+}
+
+let result = add(5, 3);
+console.log(result);
+
+
+function add(b,c) {
+    return b+c;
+}
+
+let result_1 = add(10,19);
+console.log(result_1);
