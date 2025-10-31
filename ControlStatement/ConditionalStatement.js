@@ -275,4 +275,15 @@ let i3= 1;
 while(i3<=5){
     console.log("Hello Kaise Hoo");
     i3++;
-}7
+}
+let i4 = 1;
+while(i4<=4){
+    console.log("Hi Mai Bhadhiya Huu Tum Kaise Hoo");
+    i4++;
+}
+
+let i5 = 2;
+while(i5<-10){
+    console.log("Hey, How are You");   //while(i5 < -10) → this means the loop will run only if i5 is less than -10
+    i5++;
+}   //The loop never runs  //No Output
