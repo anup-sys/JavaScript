@@ -242,3 +242,37 @@ let college1 = 'Rv College Of Engineering';
 for(let i =1; i<5;i++){
     console.log(college1);
 }
+
+//let college2 = 'S N Sinha College'
+
+//for(let i = 2; i<=6; i++){
+    //console.log(college2);
+//}
+
+let college3 = 'S N Sinha College1'
+for(let i = 0; i<=5;i++){
+    console.log(college3);
+}
+
+//While Loop
+//Used when you don't know how many times, but you loop until a condition becomes false.
+
+let i = 1;
+
+while (i <= 5) {
+    console.log("Hi");
+    i++;
+}
+
+let i2 = 1;
+while(i2<=5) {
+    console.log('Hello');
+ i2++;
+}
+
+
+let i3= 1;
+while(i3<=5){
+    console.log("Hello Kaise Hoo");
+    i3++;
+}
