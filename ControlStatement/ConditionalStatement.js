@@ -287,3 +287,81 @@ while(i5<-10){
     console.log("Hey, How are You");   //while(i5 < -10) → this means the loop will run only if i5 is less than -10
     i5++;
 }   //The loop never runs  //No Output
+
+//let name = 'Anup';
+//while(name<=anup){
+    //console.log("Hey Anup Kaise Hoo");
+    //name++;
+//}
+
+let name = 'Anup';
+let count = 1;
+
+while (count <= 5) {
+    console.log("Hey " + name + " Kaise Hoo");
+    count++;
+}
+
+
+
+let name1 = 'Anup Kumar Singh';
+let count1 = 1;
+while(count1 <=5 )  {
+    console.log("Hey " + name1 + " How are You");
+    count1++;
+}
+
+
+let i1 = 1;
+
+do {
+    console.log("Hello");
+    i1++;
+} while (i1 <= 5);
+
+
+let i6 = 1;
+do{
+    console.log("Hello How are You");
+    i6++;
+}while (i6 <=10);
+
+let i8 = 1;
+do {
+    console.log("Hello When will come")
+    i8++;
+}while(i8<+5)  //4 Output
+
+
+let name3 = "Anup";
+
+for (let char of name3) {
+    console.log(char);
+}
+
+
+let name4 = "Shubham";
+
+for(let char of name4) {
+    console.log(char);
+}
+
+
+let person = {
+    name: "Anup",
+    age: 20
+};
+
+for (let key in person) {
+    console.log(key, person[key]);
+}
+
+
+
+let person1 = {
+    name4:"Shubham",
+    age3: 30
+};
+for(let key in person){
+    console.log(key, person[key]);
+}
