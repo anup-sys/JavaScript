@@ -72,3 +72,21 @@ function divide(num1,num2){
 const division = divide(20,4);
 console.log(division);
 
+
+function addTwoNumber(number1,number2){
+    let result2 = number1 + number2;
+    console.log("Anup");
+    return result2;
+}
+const result2 = addTwoNumber(16,25);
+console.log(result2);
+
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("Anup"))
